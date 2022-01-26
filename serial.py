@@ -29,8 +29,7 @@ class SerialGenerator:
         self.next_num = start
 
     def generate(self):
-        """this function return a integer represent number of times
-        this method has been called + start attribute value"""
+        """this function return current serial number"""
 
         self.next_num += 1
         return self.next_num - 1
